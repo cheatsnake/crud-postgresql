@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { PersonService } from "services/person.service";
+import { PersonService } from "../services/person.service";
 
 const personService = new PersonService();
 

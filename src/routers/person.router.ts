@@ -1,4 +1,4 @@
-import { PersonController } from "controllers/person.controller";
+import { PersonController } from "../controllers/person.controller";
 import { Router } from "express";
 
 const personRouter: Router = Router();

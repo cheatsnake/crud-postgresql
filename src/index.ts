@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express, { Application, Request, Response } from "express";
-import noteRouter from "routers/note.router";
-import personRouter from "routers/person.router";
+import noteRouter from "./routers/note.router";
+import personRouter from "./routers/person.router";
 
 const PORT = process.env.PORT || 3000;
 const app: Application = express();
